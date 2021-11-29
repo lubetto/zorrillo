@@ -27,5 +27,4 @@ public class User implements Serializable {
     @NonNull
     @Column(name="user_name", nullable = false, length = 80)
     private String name;
-
 }
